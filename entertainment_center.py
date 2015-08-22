@@ -34,6 +34,11 @@ in the 1985's Twinkle, Twinkle Lucky Stars. Mr. Nice Guy was filmed in Melbourne
                         "https://upload.wikimedia.org/wikipedia/en/d/db/MrNiceGuy_DVDcover.jpg",
                         "https://www.youtube.com/watch?v=HvWznfoTFa0")
 
+# create an array of movies
+
 movies = [mission_impossible_rogue_nation, cinema_paradiso,
           who_am_i, rush_hour, police_story_3, mr_nice_guy]
+
+# generate and open the html to show the movie website
+
 fresh_tomatoes.open_movies_page(movies)
